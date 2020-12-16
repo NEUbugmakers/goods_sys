@@ -208,8 +208,6 @@ void init_print(void) {
                 break;//选项4 删除商品或商品类别
 
             case 5:
-
-
                 printf("感谢您的使用，再见！\n");
                 freeAll(listlink);
                 exit(0);
