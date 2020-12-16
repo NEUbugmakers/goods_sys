@@ -86,8 +86,8 @@ void init_print(void) {
                 printf("商品类别编号：%d\n",p_good->number);
                 printf("商品编号：%d\n",p_good->num);
                 printf("商品名称：%s\n",p_good->name);
-                printf("商品进价：%lf\n",p_good->price_in);
-                printf("商品售价：%lf\n",p_good->price_out);
+                printf("商品进价：%lf元\n",p_good->price_in);
+                printf("商品售价：%lf元\n",p_good->price_out);
                 printf("商品数量：%d\n",p_good->amount);
                 printf("显示完毕！");
                 find = 0;
