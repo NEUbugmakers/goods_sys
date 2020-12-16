@@ -141,7 +141,7 @@ void init_print(void) {
 
                     if(goodsNameModify(listlink,num,number,name) ==0){
                         printf("修改商品名称异常！\n");
-                        find =0;
+                        find = 0;
                         break;
                     }else if(goodsNameModify(listlink,num,number,name) ==-1) {
                         printf("商品不存在！\n");
@@ -196,11 +196,11 @@ void init_print(void) {
                     scanf("%d",&number);
                     if(deleteSort(listlink,number) == 0){
                         printf("商品分类不存在！\n");
-                        find =0;
+                        find = 0;
                         break;
                     }else{
                         printf("修改成功！\n");
-                        find=0;
+                        find= 0;
                         break;
                     }
                 }

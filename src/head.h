@@ -138,7 +138,7 @@ int deleteGoods_num_list(goodslink list, int num) {//从商品链表中删除商
 }
 int deleteGoods_num(goods_listlink l, int num, int number) {//从商品主链表中删除商品
     goods_listlink p = getSort_num(l, number);
-    if (!p)
+    if (p)
         return deleteGoods_num_list(getSort_num(l, number)->head, num);
     else
         return 0;
